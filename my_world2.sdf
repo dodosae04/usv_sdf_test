@@ -280,16 +280,15 @@
                 </visual>
                 <inertial>
                     <pose>0.0012 0 -0.05 0 0 0</pose> 
-                    <!-- Adjusted mass to match displaced water volume and
-                         prevent the vessel from rising uncontrollably -->
-                    <mass>207</mass>
+                    <!-- Tweaked mass so the USV stays afloat -->
+                    <mass>206.65</mass>
                     <inertia>
-                        <ixx>4.1054</ixx>
+                        <ixx>4.0985</ixx>
                         <ixy>0</ixy>
                         <ixz>0</ixz>
-                        <iyy>4.8811</iyy>
+                        <iyy>4.8728</iyy>
                         <iyz>0</iyz>
-                        <izz>6.8144</izz>
+                        <izz>6.8029</izz>
                     </inertia>
                 </inertial>
             </link>
