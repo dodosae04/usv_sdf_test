@@ -280,14 +280,16 @@
                 </visual>
                 <inertial>
                     <pose>0.0012 0 -0.05 0 0 0</pose> 
-                    <mass>100</mass>
+                    <!-- Adjusted mass to match displaced water volume and
+                         prevent the vessel from rising uncontrollably -->
+                    <mass>207</mass>
                     <inertia>
-                        <ixx>1.9833</ixx>
+                        <ixx>4.1054</ixx>
                         <ixy>0</ixy>
                         <ixz>0</ixz>
-                        <iyy>2.358</iyy>
+                        <iyy>4.8811</iyy>
                         <iyz>0</iyz>
-                        <izz>3.292</izz>
+                        <izz>6.8144</izz>
                     </inertia>
                 </inertial>
             </link>
